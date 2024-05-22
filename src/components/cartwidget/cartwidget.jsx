@@ -4,7 +4,9 @@ import { Avatar, Badge, Space } from 'antd';
 const Cartwidget = () => {
     return (
         <Badge className='cartwidget' count={99}>
-            <Avatar shape="square" size="large" />
+            <Avatar shape="square" size="large">
+            🛒 
+            </Avatar>
         </Badge>
     )
 }
